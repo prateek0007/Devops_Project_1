@@ -11,3 +11,11 @@ This project demonstrates an end-to-end DevOps pipeline including CI/CD, contain
 
 ## Status
 Day 1: Project setup and FastAPI app created ✅
+
+
+## Day 2: Dockerization ✅
+
+- Created Dockerfile
+- Built container image
+- Ran app inside container
+- Optimized using .dockerignore
