@@ -43,3 +43,31 @@ Day 1: Project setup and FastAPI app created ✅
 
 ### Status
 CI/CD pipeline successfully building and pushing images ✅
+
+## Day 4: Kubernetes Deployment ☸️
+
+### What I did
+- Deployed the application on Kubernetes
+- Created a Deployment with 2 replicas
+- Exposed the application using a NodePort Service
+- Verified service and pod status using kubectl
+
+### Kubernetes Resources
+- **Deployment:** `devops-app`
+- **Service:** `devops-service`
+- **Replicas:** `2`
+- **Service Type:** `NodePort`
+- **Accessible at:** `http://localhost:30007`
+
+### Commands Used
+```bash
+kubectl apply -f k8s/
+kubectl get pods
+kubectl get svc
+
+
+
+
+
+
+
