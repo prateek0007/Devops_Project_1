@@ -66,7 +66,21 @@ kubectl get pods
 kubectl get svc
 
 
+## Day 5: Scaling and Rolling Updates 🔄
 
+### What I did
+- Scaled the Kubernetes deployment from 2 to 4 replicas
+- Verified that the application remained accessible during scaling
+- Learned how rolling updates work in Kubernetes
+- Explored rollout status, rollout history, and rollback commands
+
+### Commands Used
+```bash
+kubectl scale deployment devops-app --replicas=4
+kubectl get pods
+kubectl rollout status deployment/devops-app
+kubectl rollout history deployment/devops-app
+kubectl rollout undo deployment/devops-app
 
 
 
