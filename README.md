@@ -1,3 +1,79 @@
+# 🚀 End-to-End DevOps CI/CD Pipeline Project
+
+## 📌 Overview
+This project demonstrates a complete DevOps workflow from application development to deployment and monitoring using modern tools.
+
+---
+
+## 🧱 Architecture
+GitHub → CI/CD → Docker → Docker Hub → Kubernetes → Monitoring (Prometheus + Grafana)
+
+---
+
+## ⚙️ Tech Stack
+- FastAPI
+- Docker
+- Kubernetes
+- GitHub Actions
+- Terraform (basic)
+- Prometheus
+- Grafana
+
+---
+
+## 🔄 CI/CD Workflow
+- Code pushed to GitHub
+- GitHub Actions builds Docker image
+- Image pushed to Docker Hub
+- Kubernetes deploys the application
+
+---
+
+## ☸️ Kubernetes Setup
+- Deployment with replicas
+- NodePort service
+- Scaling & rolling updates
+
+---
+
+## 📊 Monitoring
+- Prometheus collects metrics
+- Grafana visualizes dashboards
+
+---
+
+## 📸 Screenshots
+<img src="screenshots/grafana.png" width="800"/>
+<img src="screenshots/app.png" width="800"/>
+<img src="screenshots/k8s.png" width="800"/>
+
+---
+
+## 🚀 Key Features
+- Automated CI/CD pipeline
+- Containerized application
+- Kubernetes deployment with scaling
+- Real-time monitoring dashboards
+
+---
+
+## 🧠 Key Learnings
+- End-to-end DevOps workflow
+- CI/CD automation
+- Kubernetes scaling and updates
+- Observability and monitoring
+
+---
+
+## 🔗 Links
+- GitHub: https://github.com/prateek0007/devops-project-1
+- Docker Hub: https://hub.docker.com/r/prateekmall/devops-app
+
+
+
+
+
+
 # DevOps Project 1 🚀
 
 ## Overview
@@ -104,76 +180,7 @@ Cluster metrics like CPU, memory, and pod status are now visible in real-time da
 - How Prometheus collects metrics
 - How Grafana visualizes system performance
 
-# 🚀 End-to-End DevOps CI/CD Pipeline Project
 
-## 📌 Overview
-This project demonstrates a complete DevOps workflow from application development to deployment and monitoring using modern tools.
-
----
-
-## 🧱 Architecture
-GitHub → CI/CD → Docker → Docker Hub → Kubernetes → Monitoring (Prometheus + Grafana)
-
----
-
-## ⚙️ Tech Stack
-- FastAPI
-- Docker
-- Kubernetes
-- GitHub Actions
-- Terraform (basic)
-- Prometheus
-- Grafana
-
----
-
-## 🔄 CI/CD Workflow
-- Code pushed to GitHub
-- GitHub Actions builds Docker image
-- Image pushed to Docker Hub
-- Kubernetes deploys the application
-
----
-
-## ☸️ Kubernetes Setup
-- Deployment with replicas
-- NodePort service
-- Scaling & rolling updates
-
----
-
-## 📊 Monitoring
-- Prometheus collects metrics
-- Grafana visualizes dashboards
-
----
-
-## 📸 Screenshots
-<img src="screenshots/grafana.png" width="800"/>
-<img src="screenshots/app.png" width="800"/>
-<img src="screenshots/k8s.png" width="800"/>
-
----
-
-## 🚀 Key Features
-- Automated CI/CD pipeline
-- Containerized application
-- Kubernetes deployment with scaling
-- Real-time monitoring dashboards
-
----
-
-## 🧠 Key Learnings
-- End-to-end DevOps workflow
-- CI/CD automation
-- Kubernetes scaling and updates
-- Observability and monitoring
-
----
-
-## 🔗 Links
-- GitHub: https://github.com/prateek0007/devops-project-1
-- Docker Hub: https://hub.docker.com/r/prateekmall/devops-app
 
 
 
