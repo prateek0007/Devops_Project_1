@@ -43,8 +43,11 @@ GitHub → CI/CD → Docker → Docker Hub → Kubernetes → Monitoring (Promet
 ---
 
 ## 📸 Screenshots
+## GRAFANA DASHBOARD MONITORING 
 <img src="screenshots/grafana.png" width="800"/>
+## APP 
 <img src="screenshots/app.png" width="800"/>
+## PODS
 <img src="screenshots/k8s.png" width="800"/>
 
 ---
