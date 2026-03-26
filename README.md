@@ -84,4 +84,27 @@ kubectl rollout undo deployment/devops-app
 
 
 
+## Day 6: Monitoring with Prometheus & Grafana 📊
+
+### What I did
+- Installed Prometheus and Grafana using Helm
+- Collected Kubernetes cluster metrics
+- Visualized metrics using Grafana dashboards
+
+### Tools Used
+- Prometheus (metrics collection)
+- Grafana (visualization)
+- Helm (deployment)
+
+### Outcome
+Cluster metrics like CPU, memory, and pod status are now visible in real-time dashboards.
+
+### Key Learning
+- Importance of observability in DevOps
+- How Prometheus collects metrics
+- How Grafana visualizes system performance
+
+
+
+
 
